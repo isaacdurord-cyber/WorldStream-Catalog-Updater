@@ -1,0 +1,19 @@
+{
+  "note": "Only add public direct video links that are authorized for third-party playback. Movy/Chillflix embeds are not automatically authorized or direct streams.",
+  "sources": [
+    {
+      "id": "mdn-flower-test",
+      "provider": "MDN",
+      "title": "Flower - Player Test",
+      "type": "movie",
+      "year": "2020",
+      "genre": "Nature",
+      "description": "Short CC0 playback diagnostic clip.",
+      "poster": "",
+      "metadata_url": "https://developer.mozilla.org/",
+      "playback_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "authorized_for_third_party_playback": true,
+      "license_note": "CC0 example media"
+    }
+  ]
+}
