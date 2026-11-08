@@ -12,6 +12,7 @@ import urllib.request
 from source_discovery import validated_sources
 from website_discovery import audit
 from commons_provider import commons_videos
+from multi_source import add_sources
 
 HEADERS = {"User-Agent": "WorldStreamCatalogUpdater/1.0 (metadata-only)"}
 
@@ -108,14 +109,16 @@ def main():
         print('Wikimedia Commons provider failed:', str(exc))
         commons_items = []
     items = source_items + commons_items + movies() + shows()
+    items = add_sources(items)
     if not items:
         raise SystemExit("No metadata retrieved; keeping existing catalog")
     result = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "catalog_type": "metadata_and_verified_authorized_sources",
         "notice": "Only authorized direct sources that pass an HTTP probe are marked playable. Metadata-only listings are not playable.",
         "count": len(items),
+        "playable_count": sum(1 for item in items if item["playable"]),
         "source_report": source_report,
         "commons_imported": len(commons_items),
         "website_discovery": website_report,
