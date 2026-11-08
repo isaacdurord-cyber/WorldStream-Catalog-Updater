@@ -1,0 +1,9 @@
+{
+  "note": "Discovery only checks public site availability and published integration metadata. It does not extract embedded players or protected video streams.",
+  "sites": [
+    {"name": "Movy", "url": "https://www.movy.sx"},
+    {"name": "Chillflix", "url": "https://www.chillflix.lol"},
+    {"name": "RiveStream", "url": "https://rivestream.org"},
+    {"name": "Cinezo", "url": "https://cinezo.net"}
+  ]
+}
