@@ -13,6 +13,7 @@ from source_discovery import validated_sources
 from website_discovery import audit
 from commons_provider import commons_videos
 from multi_source import add_sources
+from popular_catalog import movie_catalog, tvmaze_shows
 
 HEADERS = {"User-Agent": "WorldStreamCatalogUpdater/1.0 (metadata-only)"}
 
@@ -108,16 +109,39 @@ def main():
     except Exception as exc:
         print('Wikimedia Commons provider failed:', str(exc))
         commons_items = []
-    items = source_items + commons_items + movies() + shows()
-    items = add_sources(items)
+    try:
+        popular_movies = movie_catalog()
+    except Exception as exc:
+        print("Popular movie metadata failed:", exc)
+        popular_movies = []
+    try:
+        popular_shows = tvmaze_shows()
+    except Exception as exc:
+        print("Popular show metadata failed:", exc)
+        popular_shows = []
+    try:
+        with open("public/catalog.json", encoding="utf-8") as old_file:
+            old_items = json.load(old_file).get("items", [])
+    except (FileNotFoundError, ValueError):
+        old_items = []
+    if not popular_movies:
+        popular_movies = [x for x in old_items if x.get("type") == "movie" and x.get("metadata_source") in ("tmdb", "wikidata")] or movies()
+    if not popular_shows:
+        popular_shows = [x for x in old_items if x.get("type") == "series" and x.get("metadata_source") == "tvmaze"] or shows()
+    # Keep random open-media/test clips out of user-facing movie rows.
+    diagnostic_items = add_sources(source_items + commons_items)
+    items = add_sources(popular_movies + popular_shows)
     if not items:
         raise SystemExit("No metadata retrieved; keeping existing catalog")
     result = {
         "schema_version": 2,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "catalog_type": "metadata_and_verified_authorized_sources",
-        "notice": "Only authorized direct sources that pass an HTTP probe are marked playable. Metadata-only listings are not playable.",
+        "catalog_type": "entertainment_with_separate_diagnostics",
+        "notice": "Entertainment titles are metadata-only unless authorized playable sources exist. Test clips are in diagnostics.json.",
         "count": len(items),
+        "movie_count": sum(1 for i in items if i["type"] == "movie"),
+        "series_count": sum(1 for i in items if i["type"] == "series"),
+        "diagnostic_video_count": len(diagnostic_items),
         "playable_count": sum(1 for item in items if item["playable"]),
         "source_report": source_report,
         "commons_imported": len(commons_items),
@@ -129,6 +153,8 @@ def main():
     with open(temp, "w", encoding="utf-8") as file:
         json.dump(result, file, ensure_ascii=False, indent=2)
     os.replace(temp, "public/catalog.json")
+    with open("public/diagnostics.json", "w", encoding="utf-8") as file:
+        json.dump({"schema_version": 2, "count": len(diagnostic_items), "items": diagnostic_items}, file, ensure_ascii=False, indent=2)
     with open("public/discovery_report.json", "w", encoding="utf-8") as file:
         json.dump({"source_report": source_report, "website_discovery": website_report}, file, indent=2)
     print("Wrote", len(items), "catalog entries and website discovery report")
