@@ -9,6 +9,7 @@ import os
 import time
 import urllib.parse
 import urllib.request
+from source_discovery import validated_sources
 
 HEADERS = {"User-Agent": "WorldStreamCatalogUpdater/1.0 (metadata-only)"}
 
@@ -97,15 +98,17 @@ def open_films():
     } for title, year, genre, url in OPEN_FILMS]
 
 def main():
-    items = open_films() + movies() + shows()
+    source_items, source_report = validated_sources()
+    items = source_items + movies() + shows()
     if not items:
         raise SystemExit("No metadata retrieved; keeping existing catalog")
     result = {
         "schema_version": 1,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
-        "catalog_type": "metadata_only",
-        "notice": "Titles are not playable. This feed contains no licensed video streams.",
+        "catalog_type": "metadata_and_verified_authorized_sources",
+        "notice": "Only authorized direct sources that pass an HTTP probe are marked playable. Metadata-only listings are not playable.",
         "count": len(items),
+        "source_report": source_report,
         "items": items
     }
     os.makedirs("public", exist_ok=True)
