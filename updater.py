@@ -10,6 +10,7 @@ import time
 import urllib.parse
 import urllib.request
 from source_discovery import validated_sources
+from website_discovery import audit
 
 HEADERS = {"User-Agent": "WorldStreamCatalogUpdater/1.0 (metadata-only)"}
 
@@ -99,6 +100,7 @@ def open_films():
 
 def main():
     source_items, source_report = validated_sources()
+    website_report = audit()
     items = source_items + movies() + shows()
     if not items:
         raise SystemExit("No metadata retrieved; keeping existing catalog")
@@ -109,6 +111,7 @@ def main():
         "notice": "Only authorized direct sources that pass an HTTP probe are marked playable. Metadata-only listings are not playable.",
         "count": len(items),
         "source_report": source_report,
+        "website_discovery": website_report,
         "items": items
     }
     os.makedirs("public", exist_ok=True)
@@ -116,7 +119,9 @@ def main():
     with open(temp, "w", encoding="utf-8") as file:
         json.dump(result, file, ensure_ascii=False, indent=2)
     os.replace(temp, "public/catalog.json")
-    print("Wrote", len(items), "metadata entries")
+    with open("public/discovery_report.json", "w", encoding="utf-8") as file:
+        json.dump({"source_report": source_report, "website_discovery": website_report}, file, indent=2)
+    print("Wrote", len(items), "catalog entries and website discovery report")
 
 if __name__ == "__main__":
     main()
