@@ -3,7 +3,7 @@
   "sites": [
     {"name": "Movy", "url": "https://www.movy.sx"},
     {"name": "Chillflix", "url": "https://www.chillflix.lol"},
-    {"name": "RiveStream", "url": "https://rivestream.org"},
+    {"name": "RiveStream", "url": "https://www.rivestream.app"},
     {"name": "Cinezo", "url": "https://cinezo.net"}
   ]
 }
