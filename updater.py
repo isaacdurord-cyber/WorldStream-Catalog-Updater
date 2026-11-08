@@ -76,8 +76,30 @@ def shows():
         time.sleep(0.25)
     return list(entries.values())
 
+
+
+# Direct MP4 links to openly licensed Blender films. Availability is checked
+# by the Android player at playback time; this workflow does not probe them.
+OPEN_FILMS = [
+    ("Sintel", "2010", "Fantasy", "https://video.blender.org/static/webseed/0eb052d0-fd51-43e6-aa33-ecdbf77a5d40-720.mp4"),
+    ("Tears of Steel", "2012", "Science Fiction", "https://video.blender.org/static/webseed/8533ea43-4271-4a57-9694-e9d0b35e1aa1-720.mp4"),
+    ("Spring", "2019", "Animation", "https://video.blender.org/static/webseed/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-720.mp4"),
+    ("Glass Half", "2015", "Animation", "https://video.blender.org/static/webseed/64222c8a-c4c7-4b3b-9850-7fb2078edcf6-720.mp4"),
+]
+
+def open_films():
+    return [{
+        "id": "blender:" + title.lower().replace(" ", "-"),
+        "type": "movie", "title": title, "year": year, "genre": genre,
+        "description": "Blender open movie. Native player test title.",
+        "poster": "", "metadata_url": "https://studio.blender.org/films/",
+        "playback_url": url, "playable": True,
+        "metadata_source": "blender-open-movie",
+        "license_note": "Open movie; respect film-specific attribution requirements."
+    } for title, year, genre, url in OPEN_FILMS]
+
 def main():
-    items = movies() + shows()
+    items = open_films() + movies() + shows()
     if not items:
         raise SystemExit("No metadata retrieved; keeping existing catalog")
     result = {
