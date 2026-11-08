@@ -78,13 +78,11 @@ def shows():
 
 
 
-# Direct MP4 links to openly licensed Blender films. Availability is checked
+# Direct MP4 links to openly licensed Blender films hosted as public Google sample videos. Availability is checked
 # by the Android player at playback time; this workflow does not probe them.
 OPEN_FILMS = [
-    ("Sintel", "2010", "Fantasy", "https://video.blender.org/static/webseed/0eb052d0-fd51-43e6-aa33-ecdbf77a5d40-720.mp4"),
-    ("Tears of Steel", "2012", "Science Fiction", "https://video.blender.org/static/webseed/8533ea43-4271-4a57-9694-e9d0b35e1aa1-720.mp4"),
-    ("Spring", "2019", "Animation", "https://video.blender.org/static/webseed/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-720.mp4"),
-    ("Glass Half", "2015", "Animation", "https://video.blender.org/static/webseed/64222c8a-c4c7-4b3b-9850-7fb2078edcf6-720.mp4"),
+    ("Big Buck Bunny", "2008", "Animation", "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"),
+    ("Elephants Dream", "2006", "Science Fiction", "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"),
 ]
 
 def open_films():
