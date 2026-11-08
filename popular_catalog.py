@@ -37,7 +37,7 @@ def get_json(url, headers=None, timeout=35, retries=2):
         time.sleep(min(8, 1.5 * (2 ** attempt)))
 
 def remove_html(value):
-    return re.sub(r"\\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", value or ""))).strip()
+    return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", value or ""))).strip()
 
 def tvmaze_entry(show):
     ident = show.get("id")
@@ -214,3 +214,4 @@ def movie_catalog():
     else:
         print("No TMDB_READ_TOKEN: trying keyless Wikidata metadata (best effort).")
     return wikidata_movies()
+
