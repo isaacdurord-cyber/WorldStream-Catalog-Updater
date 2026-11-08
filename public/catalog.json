@@ -1,10 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T05:29:40.739397+00:00",
+  "generated_at": "2026-11-08T05:42:42.834334+00:00",
   "catalog_type": "metadata_only",
   "notice": "Titles are not playable. This feed contains no licensed video streams.",
-  "count": 485,
+  "count": 487,
   "items": [
+    {
+      "id": "blender:big-buck-bunny",
+      "type": "movie",
+      "title": "Big Buck Bunny",
+      "year": "2008",
+      "genre": "Animation",
+      "description": "Blender open movie. Native player test title.",
+      "poster": "",
+      "metadata_url": "https://studio.blender.org/films/",
+      "playback_url": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "playable": true,
+      "metadata_source": "blender-open-movie",
+      "license_note": "Open movie; respect film-specific attribution requirements."
+    },
+    {
+      "id": "blender:elephants-dream",
+      "type": "movie",
+      "title": "Elephants Dream",
+      "year": "2006",
+      "genre": "Science Fiction",
+      "description": "Blender open movie. Native player test title.",
+      "poster": "",
+      "metadata_url": "https://studio.blender.org/films/",
+      "playback_url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "playable": true,
+      "metadata_source": "blender-open-movie",
+      "license_note": "Open movie; respect film-specific attribution requirements."
+    },
     {
       "id": "tvmaze:1",
       "type": "series",
