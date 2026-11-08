@@ -78,22 +78,22 @@ def shows():
 
 
 
-# Direct MP4 links to openly licensed Blender films hosted as public Google sample videos. Availability is checked
+# Direct MP4 playback smoke-test video hosted by MDN (Mozilla). Availability is checked
 # by the Android player at playback time; this workflow does not probe them.
 OPEN_FILMS = [
-    ("Big Buck Bunny", "2008", "Animation", "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"),
-    ("Elephants Dream", "2006", "Science Fiction", "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"),
+    ("Flower - Player Test", "2020", "Nature", "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"),
+
 ]
 
 def open_films():
     return [{
         "id": "blender:" + title.lower().replace(" ", "-"),
         "type": "movie", "title": title, "year": year, "genre": genre,
-        "description": "Blender open movie. Native player test title.",
-        "poster": "", "metadata_url": "https://studio.blender.org/films/",
+        "description": "Short CC0 flower video for native ExoPlayer testing.",
+        "poster": "", "metadata_url": "https://developer.mozilla.org/",
         "playback_url": url, "playable": True,
-        "metadata_source": "blender-open-movie",
-        "license_note": "Open movie; respect film-specific attribution requirements."
+        "metadata_source": "mdn-test-video",
+        "license_note": "MDN CC0 video example."
     } for title, year, genre, url in OPEN_FILMS]
 
 def main():
