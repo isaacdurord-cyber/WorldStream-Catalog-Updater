@@ -7,7 +7,7 @@
     }
   ],
   "website_discovery": {
-    "checked_at": "2026-11-08T14:45:56.446695+00:00",
+    "checked_at": "2026-11-10T16:05:19.232177+00:00",
     "sites": [
       {
         "site": "Movy",
@@ -65,23 +65,25 @@
       },
       {
         "site": "RiveStream",
-        "homepage": "https://rivestream.org",
+        "homepage": "https://www.rivestream.app",
         "homepage_check": {
-          "status": "unavailable",
-          "error_type": "URLError"
+          "status": "reachable",
+          "http_status": 200,
+          "content_type": "text/html"
         },
         "public_documents": {
           "/robots.txt": {
-            "status": "unavailable",
-            "error_type": "URLError"
+            "status": "reachable",
+            "http_status": 200,
+            "content_type": "text/plain"
           },
           "/.well-known/openapi.json": {
-            "status": "unavailable",
-            "error_type": "URLError"
+            "status": "http_error",
+            "http_status": 404
           },
           "/openapi.json": {
-            "status": "unavailable",
-            "error_type": "URLError"
+            "status": "http_error",
+            "http_status": 404
           }
         },
         "integration_status": "not_verified",
@@ -92,9 +94,8 @@
         "site": "Cinezo",
         "homepage": "https://cinezo.net",
         "homepage_check": {
-          "status": "reachable",
-          "http_status": 200,
-          "content_type": "text/html"
+          "status": "unavailable",
+          "error_type": "RemoteDisconnected"
         },
         "public_documents": {
           "/robots.txt": {
