@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "count": 26,
+  "count": 22,
   "items": [
     {
       "id": "provider:mdn-flower-test",
@@ -51,31 +51,6 @@
       ]
     },
     {
-      "id": "commons:42317283",
-      "type": "movie",
-      "title": "2015-08-13 - Leica I, 1927 - lange Fassung mit Musik",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/2015-08-13_-_Leica_I%2C_1927_-_lange_Fassung_mit_Musik.webm/960px--2015-08-13_-_Leica_I%2C_1927_-_lange_Fassung_mit_Musik.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "Leica Mod. Ia (1927), production number 5193, production time 1925-1936, Leitz Elmar F=50mm, 1:3.5",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3A2015-08-13_-_Leica_I%2C_1927_-_lange_Fassung_mit_Musik.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/2015-08-13_-_Leica_I%2C_1927_-_lange_Fassung_mit_Musik.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY-SA 4.0",
-      "media_type": "video/webm",
-      "attribution": "Kameraprojekt Graz 2015",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/2015-08-13_-_Leica_I%2C_1927_-_lange_Fassung_mit_Musik.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY-SA 4.0"
-        }
-      ]
-    },
-    {
       "id": "commons:41238840",
       "type": "movie",
       "title": "A Trip Down Market Street (High Res)",
@@ -101,15 +76,15 @@
       ]
     },
     {
-      "id": "commons:22965578",
+      "id": "commons:22965577",
       "type": "movie",
-      "title": "Artist’s impression of the black hole inside NGC 300 X-1 (ESO 1004a)",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004a%29.webm/960px--Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004a%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "title": "Artist’s impression of the black hole inside NGC 300 X-1 (ESO 1004c)",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm/960px--Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
       "description": "This artist’s impression depicts the newly discovered stellar-mass black hole in the spiral galaxy NGC 300. The black hole has a mass about twenty times the mass of the Sun and is associated with a Wolf–Rayet star; a star that will become a black hole itself. Thanks to the observations performed with the FORS2 instrument mounted on ESO’s Very Large Telescope, astronomers have confirmed an earlier hunch that the black hole and the Wolf–Rayet star dance around each other in a diabolic waltz, with ",
       "genre": "Open media",
       "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AArtist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004a%29.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004a%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AArtist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "playable": true,
       "metadata_source": "wikimedia-commons",
       "license_note": "CC BY 4.0",
@@ -117,7 +92,7 @@
       "attribution": "ESO/L. Calçada",
       "playback_sources": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004a%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
@@ -276,31 +251,6 @@
       ]
     },
     {
-      "id": "commons:64316992",
-      "type": "movie",
-      "title": "Frozen drop",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Frozen_drop.webm/960px--Frozen_drop.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "Frozen drop of water in a very cold environment, approximately -180 degrees Celsius. You can observe the beautful ice crystals formation. First, I put a copper plate in a foam box, and cooled it with liquid nitrogen at its boiling point. After that, I began to drip water droplets on the surface of the cold copper plate, from which they began to freeze very quickly. At a certain height the temperature increased, causing the water vapor floating above the nitrogen layer to condense on the surface ",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AFrozen_drop.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Frozen_drop.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY 4.0",
-      "media_type": "video/webm",
-      "attribution": "Maxim Bilovitskiy",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Frozen_drop.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY 4.0"
-        }
-      ]
-    },
-    {
       "id": "commons:31546190",
       "type": "movie",
       "title": "Galerida cristata, South Hebron",
@@ -322,56 +272,6 @@
           "mime_type": "video/webm",
           "priority": 1,
           "license_note": "CC BY-SA 3.0"
-        }
-      ]
-    },
-    {
-      "id": "commons:73580623",
-      "type": "movie",
-      "title": "Global temperature changes",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Global_temperature_changes.webm/960px--Global_temperature_changes.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "This animation shows the temperature from 1880-1884 to 2013-2017, as compared to a baseline average from 1951 to 1980. Blue colors were cooler and red warmer.",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AGlobal_temperature_changes.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Global_temperature_changes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "Public domain",
-      "media_type": "video/webm",
-      "attribution": "NASA's Scientific Visualization Studio: Kel Elkins (USRA), Lori Perkins (NASA/GSFC)",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Global_temperature_changes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "Public domain"
-        }
-      ]
-    },
-    {
-      "id": "commons:74493144",
-      "type": "movie",
-      "title": "Japanmakaken im Jigokudani Monkey Park bei der Fellpflege",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm/960px--Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "Japanese macaques (Macaca fuscata) grooming each other at the Jigokudani Monkey Park, Japan",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AJapanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY-SA 4.0",
-      "media_type": "video/webm",
-      "attribution": "Frank Schulenburg",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY-SA 4.0"
         }
       ]
     },
@@ -401,23 +301,73 @@
       ]
     },
     {
-      "id": "commons:61566761",
+      "id": "commons:83300784",
       "type": "movie",
-      "title": "Landwasserviadukt, aerial video",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Landwasserviadukt%2C_aerial_video.webm/960px--Landwasserviadukt%2C_aerial_video.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "Aerial recording of trains crossing the Landwasser Viaduct (1050 m, Schmitten/Filisur, Grisons, Switzerland). There are electric locomotive Ge 4/4 III № 652 with the Glacier Express train and electric multiple unit ABe 8/12 (Allegra) № 3515 with an Alvra train",
+      "title": "Lake Urmia Google Earth Timelapse 1984–2018",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lake_Urmia_Google_Earth_Timelapse_1984%E2%80%932018.webm/960px--Lake_Urmia_Google_Earth_Timelapse_1984%E2%80%932018.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Lake Urmia Google Earth Timelapse 1984–2018. Explore this location at: https://earthengine.google.com/timelapse/#v=37.5469169927,45.01187378,2,latLng&amp;t=0",
       "genre": "Open media",
       "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ALandwasserviadukt%2C_aerial_video.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Landwasserviadukt%2C_aerial_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ALake_Urmia_Google_Earth_Timelapse_1984%E2%80%932018.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Lake_Urmia_Google_Earth_Timelapse_1984%E2%80%932018.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY 3.0",
+      "media_type": "video/webm",
+      "attribution": "Google Earth Timelapse (Google, Landsat, Copernicus)",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Lake_Urmia_Google_Earth_Timelapse_1984%E2%80%932018.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY 3.0"
+        }
+      ]
+    },
+    {
+      "id": "commons:142959046",
+      "type": "movie",
+      "title": "Lonesome (1928)",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lonesome_%281928%29.webm/960px--Lonesome_%281928%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "American part-talkie film Lonesome (1928), directed by Paul Fejos and released by Universal Pictures.",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ALonesome_%281928%29.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lonesome_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "Public domain",
+      "media_type": "video/webm",
+      "attribution": "Paul Fejos",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lonesome_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "Public domain"
+        }
+      ]
+    },
+    {
+      "id": "commons:44894827",
+      "type": "movie",
+      "title": "Movement of organelles in Tradescantia stamen hair cells",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Movement_of_organelles_in_Tradescantia_stamen_hair_cells.webm/960px--Movement_of_organelles_in_Tradescantia_stamen_hair_cells.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Movement of organelles (cytoplasmic streaming) in Tradescantia stamen hair cells, time lapse recording.",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AMovement_of_organelles_in_Tradescantia_stamen_hair_cells.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Movement_of_organelles_in_Tradescantia_stamen_hair_cells.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "playable": true,
       "metadata_source": "wikimedia-commons",
       "license_note": "CC BY-SA 4.0",
       "media_type": "video/webm",
-      "attribution": "Video: Capricorn4049Audio: Kevin MacLeod",
+      "attribution": "Heiti Paves",
       "playback_sources": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Landwasserviadukt%2C_aerial_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Movement_of_organelles_in_Tradescantia_stamen_hair_cells.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
@@ -426,23 +376,23 @@
       ]
     },
     {
-      "id": "commons:60116006",
+      "id": "commons:36764819",
       "type": "movie",
-      "title": "New York 1911",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/New_York_1911.webm/960px--New_York_1911.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "New York 1911. Documentary travelogue of New York City by a team of cameramen with the Swedish company Svenska Biografteatern. MoMA's restoration of New York 1911 is derived from the original nitrate print of the film. Silent.",
+      "title": "National Advisory Committee for Aeronautics wind tests (1946)",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/National_Advisory_Committee_for_Aeronautics_wind_tests_%281946%29.webm/500px--National_Advisory_Committee_for_Aeronautics_wind_tests_%281946%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Wind tests on a human subject (either O. E. Payne or G. L. Dillon; misidentified as John Stapp by Gizmondo) at the Langley Research Center, showing the effects of winds at certain speeds on the human face. Maximum speed is 457 mph. This test was covered as early as the April 1949 issue of All Hands (online here; transcript on the talk page.)",
       "genre": "Open media",
       "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ANew_York_1911.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/New_York_1911.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ANational_Advisory_Committee_for_Aeronautics_wind_tests_%281946%29.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/National_Advisory_Committee_for_Aeronautics_wind_tests_%281946%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "playable": true,
       "metadata_source": "wikimedia-commons",
       "license_note": "Public domain",
       "media_type": "video/webm",
-      "attribution": "Svenska Biografteatern",
+      "attribution": "National Advisory Committee for Aeronautics, for the US Navy",
       "playback_sources": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/New_York_1911.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/National_Advisory_Committee_for_Aeronautics_wind_tests_%281946%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
@@ -597,56 +547,6 @@
           "mime_type": "video/webm",
           "priority": 1,
           "license_note": "CC BY-SA 4.0"
-        }
-      ]
-    },
-    {
-      "id": "commons:22964007",
-      "type": "movie",
-      "title": "Zoom in onto the stellar black hole NGC 300 X-1 (ESO 1004b)",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Zoom_in_onto_the_stellar_black_hole_NGC_300_X-1_%28ESO_1004b%29.webm/960px--Zoom_in_onto_the_stellar_black_hole_NGC_300_X-1_%28ESO_1004b%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "Astronomers using ESO’s Very Large Telescope (VLT) have detected a stellar-mass black hole much further away than any other previously known. With a mass twenty times that of the Sun, this is also the second most massive stellar mass black hole ever found. The newly announced black hole lies in a spiral galaxy called NGC 300, six million light-years from Earth.\nThis video zooms in onto the position of the system containing the stellar-mass black hole, and finishes with an artist’s impression of ",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AZoom_in_onto_the_stellar_black_hole_NGC_300_X-1_%28ESO_1004b%29.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Zoom_in_onto_the_stellar_black_hole_NGC_300_X-1_%28ESO_1004b%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY 4.0",
-      "media_type": "video/webm",
-      "attribution": "ESO/Digitized Sky Survey 2/P. Crowther/L. Calçada",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Zoom_in_onto_the_stellar_black_hole_NGC_300_X-1_%28ESO_1004b%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY 4.0"
-        }
-      ]
-    },
-    {
-      "id": "commons:22979786",
-      "type": "movie",
-      "title": "Zooming into the southern spiral NGC 300 (ESO 1037b)",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Zooming_into_the_southern_spiral_NGC_300_%28ESO_1037b%29.webm/960px--Zooming_into_the_southern_spiral_NGC_300_%28ESO_1037b%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "This zoom sequence starts with a view of part of the faint southern constellation of Sculptor. At the centre we see the spiral galaxy NGC 300, lying about six million light-years from us. It is one of the closest and brightest normal spiral galaxies and an ideal laboratory for studying such objects in great detail. We finish the zoom with a close-up of NGC 300 in a very detailed image from the Wide Field Imager (WFI) at ESO’s La Silla Observatory in Chile.\nMusic: The forgotten castle from Album ",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AZooming_into_the_southern_spiral_NGC_300_%28ESO_1037b%29.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Zooming_into_the_southern_spiral_NGC_300_%28ESO_1037b%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY 4.0",
-      "media_type": "video/webm",
-      "attribution": "Video: ESO\n\nMusic: Zero Project",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Zooming_into_the_southern_spiral_NGC_300_%28ESO_1037b%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY 4.0"
         }
       ]
     }

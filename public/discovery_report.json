@@ -7,7 +7,7 @@
     }
   ],
   "website_discovery": {
-    "checked_at": "2026-11-10T16:05:19.232177+00:00",
+    "checked_at": "2026-11-11T15:51:03.744118+00:00",
     "sites": [
       {
         "site": "Movy",
@@ -94,8 +94,9 @@
         "site": "Cinezo",
         "homepage": "https://cinezo.net",
         "homepage_check": {
-          "status": "unavailable",
-          "error_type": "RemoteDisconnected"
+          "status": "reachable",
+          "http_status": 200,
+          "content_type": "text/html"
         },
         "public_documents": {
           "/robots.txt": {
