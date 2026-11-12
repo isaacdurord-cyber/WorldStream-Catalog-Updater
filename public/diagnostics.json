@@ -276,6 +276,31 @@
       ]
     },
     {
+      "id": "commons:74493144",
+      "type": "movie",
+      "title": "Japanmakaken im Jigokudani Monkey Park bei der Fellpflege",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm/960px--Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Japanese macaques (Macaca fuscata) grooming each other at the Jigokudani Monkey Park, Japan",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AJapanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY-SA 4.0",
+      "media_type": "video/webm",
+      "attribution": "Frank Schulenburg",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
       "id": "commons:78181584",
       "type": "movie",
       "title": "Joy & Heron - Animated CGI Spot by Passion Pictures",
@@ -518,31 +543,6 @@
       "playback_sources": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Trefoil_knot.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY-SA 4.0"
-        }
-      ]
-    },
-    {
-      "id": "commons:44965150",
-      "type": "movie",
-      "title": "YBCO video",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/YBCO_video.webm/960px--YBCO_video.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "A superconductor or a high-temperature superconducting ceramics is an alloy of oxides of yttrium, barium and copper in proportions (which you see on the screen) YBa2Cu3O7-x and abbreviated as YBCO. In order to demonstrate the properties of this object let’s conduct an experiment. First, let’s take a small piece of ceramic and then put a piece of styrofoam and a powerful neodymium magnet on top of it. Next, the superconductor is cooled with liquid nitrogen down to -196 degrees Celsius. After the ",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AYBCO_video.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY-SA 4.0",
-      "media_type": "video/webm",
-      "attribution": "Maxim Bilovitskiy",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
