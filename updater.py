@@ -14,6 +14,7 @@ from website_discovery import audit
 from commons_provider import commons_videos
 from multi_source import add_sources
 from popular_catalog import movie_catalog, tvmaze_shows
+from catalog_pipeline import merge_metadata, attach_sources
 
 HEADERS = {"User-Agent": "WorldStreamCatalogUpdater/1.0 (metadata-only)"}
 
@@ -105,7 +106,7 @@ def main():
     source_items, source_report = validated_sources()
     website_report = audit()
     try:
-        commons_items = commons_videos()
+        commons_items = commons_videos() if os.environ.get("IMPORT_COMMONS_DIAGNOSTICS") == "1" else []
     except Exception as exc:
         print('Wikimedia Commons provider failed:', str(exc))
         commons_items = []
@@ -129,12 +130,14 @@ def main():
     if not popular_shows:
         popular_shows = [x for x in old_items if x.get("type") == "series" and x.get("metadata_source") == "tvmaze"] or shows()
     # Keep random open-media/test clips out of user-facing movie rows.
-    diagnostic_items = add_sources(source_items + commons_items)
-    items = add_sources(popular_movies + popular_shows)
+    normalized_sources = add_sources(source_items)
+    diagnostic_items = [x for x in normalized_sources if x.get("diagnostic")]
+    items = merge_metadata(old_items, popular_movies + popular_shows)
+    unmatched_sources = attach_sources(items, normalized_sources)
     if not items:
         raise SystemExit("No metadata retrieved; keeping existing catalog")
     result = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "catalog_type": "entertainment_with_separate_diagnostics",
         "notice": "Entertainment titles are metadata-only unless authorized playable sources exist. Test clips are in diagnostics.json.",
@@ -143,7 +146,10 @@ def main():
         "series_count": sum(1 for i in items if i["type"] == "series"),
         "diagnostic_video_count": len(diagnostic_items),
         "playable_count": sum(1 for item in items if item["playable"]),
+        "device_verified_count": 0,
+        "playback_validation": "Transport/header only. No Fire TV decoding has been verified.",
         "source_report": source_report,
+        "unmatched_sources": unmatched_sources,
         "commons_imported": len(commons_items),
         "website_discovery": website_report,
         "items": items
@@ -151,7 +157,7 @@ def main():
     os.makedirs("public", exist_ok=True)
     temp = "public/catalog.json.tmp"
     with open(temp, "w", encoding="utf-8") as file:
-        json.dump(result, file, ensure_ascii=False, indent=2)
+        json.dump(result, file, ensure_ascii=False, separators=(",", ":"))
     os.replace(temp, "public/catalog.json")
     with open("public/diagnostics.json", "w", encoding="utf-8") as file:
         json.dump({"schema_version": 2, "count": len(diagnostic_items), "items": diagnostic_items}, file, ensure_ascii=False, indent=2)
@@ -161,3 +167,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
