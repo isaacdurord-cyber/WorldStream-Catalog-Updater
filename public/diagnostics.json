@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "count": 22,
+  "count": 23,
   "items": [
     {
       "id": "provider:mdn-flower-test",
@@ -226,6 +226,31 @@
       ]
     },
     {
+      "id": "commons:87210020",
+      "type": "movie",
+      "title": "Draining the Oceans video by NASA",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Draining_the_Oceans_video_by_NASA.webm/960px--Draining_the_Oceans_video_by_NASA.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Remake of an animation NASA made back in 2008, but at high resolution and with edited timing (https://svs.gsfc.nasa.gov/3487), the previous version was 1024x512 while this one is 3840x2160 (4K). From https://svs.gsfc.nasa.gov/3487:\nThree fifths of the Earth's surface is under the ocean, and the ocean floor is as rich in detail as the land surface with which we are familiar. This animation simulates a drop in sea level that gradually reveals this detail. As the sea level drops, the continental sh",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ADraining_the_Oceans_video_by_NASA.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Draining_the_Oceans_video_by_NASA.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY 3.0",
+      "media_type": "video/webm",
+      "attribution": "NASA/GFSC/Horace Mitchell &amp; James O'Donoghue",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Draining_the_Oceans_video_by_NASA.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY 3.0"
+        }
+      ]
+    },
+    {
       "id": "commons:33932917",
       "type": "movie",
       "title": "FEZ trial gameplay HD",
@@ -347,31 +372,6 @@
           "mime_type": "video/webm",
           "priority": 1,
           "license_note": "CC BY 3.0"
-        }
-      ]
-    },
-    {
-      "id": "commons:142959046",
-      "type": "movie",
-      "title": "Lonesome (1928)",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lonesome_%281928%29.webm/960px--Lonesome_%281928%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "American part-talkie film Lonesome (1928), directed by Paul Fejos and released by Universal Pictures.",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ALonesome_%281928%29.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lonesome_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "Public domain",
-      "media_type": "video/webm",
-      "attribution": "Paul Fejos",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lonesome_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "Public domain"
         }
       ]
     },
@@ -543,6 +543,31 @@
       "playback_sources": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Trefoil_knot.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "id": "commons:44965150",
+      "type": "movie",
+      "title": "YBCO video",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/YBCO_video.webm/960px--YBCO_video.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "A superconductor or a high-temperature superconducting ceramics is an alloy of oxides of yttrium, barium and copper in proportions (which you see on the screen) YBa2Cu3O7-x and abbreviated as YBCO. In order to demonstrate the properties of this object let’s conduct an experiment. First, let’s take a small piece of ceramic and then put a piece of styrofoam and a powerful neodymium magnet on top of it. Next, the superconductor is cooled with liquid nitrogen down to -196 degrees Celsius. After the ",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AYBCO_video.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY-SA 4.0",
+      "media_type": "video/webm",
+      "attribution": "Maxim Bilovitskiy",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
