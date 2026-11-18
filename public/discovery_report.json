@@ -7,7 +7,7 @@
     }
   ],
   "website_discovery": {
-    "checked_at": "2026-11-17T17:22:45.389484+00:00",
+    "checked_at": "2026-11-18T16:57:38.057906+00:00",
     "sites": [
       {
         "site": "Movy",
@@ -73,17 +73,16 @@
         },
         "public_documents": {
           "/robots.txt": {
-            "status": "reachable",
-            "http_status": 200,
-            "content_type": "text/plain"
+            "status": "unavailable",
+            "error_type": "TimeoutError"
           },
           "/.well-known/openapi.json": {
-            "status": "http_error",
-            "http_status": 404
+            "status": "unavailable",
+            "error_type": "TimeoutError"
           },
           "/openapi.json": {
-            "status": "http_error",
-            "http_status": 404
+            "status": "unavailable",
+            "error_type": "TimeoutError"
           }
         },
         "integration_status": "not_verified",

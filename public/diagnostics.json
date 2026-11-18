@@ -276,31 +276,6 @@
       ]
     },
     {
-      "id": "commons:73580623",
-      "type": "movie",
-      "title": "Global temperature changes",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Global_temperature_changes.webm/960px--Global_temperature_changes.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "This animation shows the temperature from 1880-1884 to 2013-2017, as compared to a baseline average from 1951 to 1980. Blue colors were cooler and red warmer.",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AGlobal_temperature_changes.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Global_temperature_changes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "Public domain",
-      "media_type": "video/webm",
-      "attribution": "NASA's Scientific Visualization Studio: Kel Elkins (USRA), Lori Perkins (NASA/GSFC)",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Global_temperature_changes.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "Public domain"
-        }
-      ]
-    },
-    {
       "id": "commons:42307248",
       "type": "movie",
       "title": "Gymnothorax javanicus (by night)",
@@ -326,27 +301,27 @@
       ]
     },
     {
-      "id": "commons:78181584",
+      "id": "commons:74493144",
       "type": "movie",
-      "title": "Joy & Heron - Animated CGI Spot by Passion Pictures",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Joy_%26_Heron_-_Animated_CGI_Spot_by_Passion_Pictures.webm/960px--Joy_%26_Heron_-_Animated_CGI_Spot_by_Passion_Pictures.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "Joy and Heron is the tale of the lovable small dog (Joy) and a pesky Heron. Out on a fishing trip, Joy tries not to rock his master’s boat while defending it from the worm-stealing bird. However, after spotting the heron is only trying to feed its hungry and fussy chicks, Joy comes around gives away the whole pot of worms. And in the spirit of Chinese New Year, the heron then reciprocates the gesture of kindness.\n\nThe film was directed by Passion’s directors Kyra &amp; Constantin, internationall",
+      "title": "Japanmakaken im Jigokudani Monkey Park bei der Fellpflege",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm/960px--Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Japanese macaques (Macaca fuscata) grooming each other at the Jigokudani Monkey Park, Japan",
       "genre": "Open media",
       "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AJoy_%26_Heron_-_Animated_CGI_Spot_by_Passion_Pictures.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Joy_%26_Heron_-_Animated_CGI_Spot_by_Passion_Pictures.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AJapanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "playable": true,
       "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY 4.0",
+      "license_note": "CC BY-SA 4.0",
       "media_type": "video/webm",
-      "attribution": "Client: JD.com\nAgency: 180.ai\nDirectors: Kyra &amp; Constantin\nChief Creative Officer: Kenneth Kuan\nCreative: Kenneth Kuan, Ben Too, Xu Kun, Lim Yanshan, Xu Chao\nAgency Producer: Nancy Wang, Violette Xue\nAccount Service: Peter Lo, Bonnie Tian, Wang Mengdi\nProduction Company: Passion Pictures Melbour",
+      "attribution": "Frank Schulenburg",
       "playback_sources": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Joy_%26_Heron_-_Animated_CGI_Spot_by_Passion_Pictures.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
-          "license_note": "CC BY 4.0"
+          "license_note": "CC BY-SA 4.0"
         }
       ]
     },
@@ -493,6 +468,31 @@
       "playback_sources": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Trefoil_knot.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "id": "commons:175003363",
+      "type": "movie",
+      "title": "Tumbleweed kz02",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Tumbleweed_kz02.webm/960px--Tumbleweed_kz02.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Salsola tragus as tumbleweed at Painted Hills west from Hanksville, Utah",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ATumbleweed_kz02.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tumbleweed_kz02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY-SA 4.0",
+      "media_type": "video/webm",
+      "attribution": "Krzysztof Ziarnek, Kenraiz",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tumbleweed_kz02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
