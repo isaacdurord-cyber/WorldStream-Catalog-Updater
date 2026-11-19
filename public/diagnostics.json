@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "count": 22,
+  "count": 21,
   "items": [
     {
       "id": "provider:mdn-flower-test",
@@ -97,31 +97,6 @@
           "mime_type": "video/webm",
           "priority": 1,
           "license_note": "Public domain"
-        }
-      ]
-    },
-    {
-      "id": "commons:22965577",
-      "type": "movie",
-      "title": "Artist’s impression of the black hole inside NGC 300 X-1 (ESO 1004c)",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm/960px--Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "This artist’s impression depicts the newly discovered stellar-mass black hole in the spiral galaxy NGC 300. The black hole has a mass about twenty times the mass of the Sun and is associated with a Wolf–Rayet star; a star that will become a black hole itself. Thanks to the observations performed with the FORS2 instrument mounted on ESO’s Very Large Telescope, astronomers have confirmed an earlier hunch that the black hole and the Wolf–Rayet star dance around each other in a diabolic waltz, with ",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AArtist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY 4.0",
-      "media_type": "video/webm",
-      "attribution": "ESO/L. Calçada",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Artist%E2%80%99s_impression_of_the_black_hole_inside_NGC_300_X-1_%28ESO_1004c%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY 4.0"
         }
       ]
     },
@@ -301,31 +276,6 @@
       ]
     },
     {
-      "id": "commons:74493144",
-      "type": "movie",
-      "title": "Japanmakaken im Jigokudani Monkey Park bei der Fellpflege",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm/960px--Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "Japanese macaques (Macaca fuscata) grooming each other at the Jigokudani Monkey Park, Japan",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AJapanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY-SA 4.0",
-      "media_type": "video/webm",
-      "attribution": "Frank Schulenburg",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Japanmakaken_im_Jigokudani_Monkey_Park_bei_der_Fellpflege.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY-SA 4.0"
-        }
-      ]
-    },
-    {
       "id": "commons:83300784",
       "type": "movie",
       "title": "Lake Urmia Google Earth Timelapse 1984–2018",
@@ -376,6 +326,31 @@
       ]
     },
     {
+      "id": "commons:91905110",
+      "type": "movie",
+      "title": "Nanook of the North",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Nanook_of_the_North.webm/960px--Nanook_of_the_North.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "American silent film Nanook of the North",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ANanook_of_the_North.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Nanook_of_the_North.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "Public domain",
+      "media_type": "video/webm",
+      "attribution": "Robert J. Flaherty",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Nanook_of_the_North.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "Public domain"
+        }
+      ]
+    },
+    {
       "id": "commons:22979787",
       "type": "movie",
       "title": "Panning across the southern spiral NGC 300 (ESO 1037a)",
@@ -393,6 +368,31 @@
       "playback_sources": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Panning_across_the_southern_spiral_NGC_300_%28ESO_1037a%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY 4.0"
+        }
+      ]
+    },
+    {
+      "id": "commons:64302110",
+      "type": "movie",
+      "title": "Red weaver ants transporting a dead gecko, in Laos (video)",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Red_weaver_ants_transporting_a_dead_gecko%2C_in_Laos_%28video%29.webm/960px--Red_weaver_ants_transporting_a_dead_gecko%2C_in_Laos_%28video%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Big red weaver ants (Oecophylla smaragdina) transporting a dead gecko, on a beam, in Laos",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ARed_weaver_ants_transporting_a_dead_gecko%2C_in_Laos_%28video%29.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Red_weaver_ants_transporting_a_dead_gecko%2C_in_Laos_%28video%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY 4.0",
+      "media_type": "video/webm",
+      "attribution": "Basile Morin",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Red_weaver_ants_transporting_a_dead_gecko%2C_in_Laos_%28video%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
@@ -493,31 +493,6 @@
       "playback_sources": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tumbleweed_kz02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "CC BY-SA 4.0"
-        }
-      ]
-    },
-    {
-      "id": "commons:44965150",
-      "type": "movie",
-      "title": "YBCO video",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/YBCO_video.webm/960px--YBCO_video.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "A superconductor or a high-temperature superconducting ceramics is an alloy of oxides of yttrium, barium and copper in proportions (which you see on the screen) YBa2Cu3O7-x and abbreviated as YBCO. In order to demonstrate the properties of this object let’s conduct an experiment. First, let’s take a small piece of ceramic and then put a piece of styrofoam and a powerful neodymium magnet on top of it. Next, the superconductor is cooled with liquid nitrogen down to -196 degrees Celsius. After the ",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AYBCO_video.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "CC BY-SA 4.0",
-      "media_type": "video/webm",
-      "attribution": "Maxim Bilovitskiy",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
