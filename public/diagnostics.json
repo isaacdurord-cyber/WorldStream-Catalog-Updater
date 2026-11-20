@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "count": 21,
+  "count": 20,
   "items": [
     {
       "id": "provider:mdn-flower-test",
@@ -301,56 +301,6 @@
       ]
     },
     {
-      "id": "commons:142959046",
-      "type": "movie",
-      "title": "Lonesome (1928)",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lonesome_%281928%29.webm/960px--Lonesome_%281928%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "American part-talkie film Lonesome (1928), directed by Paul Fejos and released by Universal Pictures.",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ALonesome_%281928%29.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lonesome_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "Public domain",
-      "media_type": "video/webm",
-      "attribution": "Paul Fejos",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lonesome_%281928%29.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "Public domain"
-        }
-      ]
-    },
-    {
-      "id": "commons:91905110",
-      "type": "movie",
-      "title": "Nanook of the North",
-      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Nanook_of_the_North.webm/960px--Nanook_of_the_North.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "description": "American silent film Nanook of the North",
-      "genre": "Open media",
-      "year": "",
-      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ANanook_of_the_North.webm",
-      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Nanook_of_the_North.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "playable": true,
-      "metadata_source": "wikimedia-commons",
-      "license_note": "Public domain",
-      "media_type": "video/webm",
-      "attribution": "Robert J. Flaherty",
-      "playback_sources": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Nanook_of_the_North.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "provider": "wikimedia-commons",
-          "mime_type": "video/webm",
-          "priority": 1,
-          "license_note": "Public domain"
-        }
-      ]
-    },
-    {
       "id": "commons:22979787",
       "type": "movie",
       "title": "Panning across the southern spiral NGC 300 (ESO 1037a)",
@@ -493,6 +443,31 @@
       "playback_sources": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tumbleweed_kz02.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "id": "commons:44965150",
+      "type": "movie",
+      "title": "YBCO video",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/YBCO_video.webm/960px--YBCO_video.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "A superconductor or a high-temperature superconducting ceramics is an alloy of oxides of yttrium, barium and copper in proportions (which you see on the screen) YBa2Cu3O7-x and abbreviated as YBCO. In order to demonstrate the properties of this object let’s conduct an experiment. First, let’s take a small piece of ceramic and then put a piece of styrofoam and a powerful neodymium magnet on top of it. Next, the superconductor is cooled with liquid nitrogen down to -196 degrees Celsius. After the ",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AYBCO_video.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY-SA 4.0",
+      "media_type": "video/webm",
+      "attribution": "Maxim Bilovitskiy",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
           "provider": "wikimedia-commons",
           "mime_type": "video/webm",
           "priority": 1,
