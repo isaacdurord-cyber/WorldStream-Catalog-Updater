@@ -13,7 +13,8 @@
       "metadata_url": "https://developer.mozilla.org/",
       "playback_url": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
       "authorized_for_third_party_playback": true,
-      "license_note": "CC0 example media"
+      "license_note": "CC0 example media",
+      "diagnostic": true
     }
   ]
 }
