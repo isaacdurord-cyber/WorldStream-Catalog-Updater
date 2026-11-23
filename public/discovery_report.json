@@ -7,7 +7,7 @@
     }
   ],
   "website_discovery": {
-    "checked_at": "2026-11-22T15:55:09.022644+00:00",
+    "checked_at": "2026-11-23T19:50:26.449312+00:00",
     "sites": [
       {
         "site": "Movy",
@@ -78,8 +78,8 @@
             "content_type": "text/plain"
           },
           "/.well-known/openapi.json": {
-            "status": "http_error",
-            "http_status": 404
+            "status": "unavailable",
+            "error_type": "TimeoutError"
           },
           "/openapi.json": {
             "status": "http_error",
