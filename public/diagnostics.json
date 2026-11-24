@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "count": 21,
+  "count": 22,
   "items": [
     {
       "id": "provider:mdn-flower-test",
@@ -247,6 +247,31 @@
           "mime_type": "video/webm",
           "priority": 1,
           "license_note": "CC BY-SA 4.0"
+        }
+      ]
+    },
+    {
+      "id": "commons:87210020",
+      "type": "movie",
+      "title": "Draining the Oceans video by NASA",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Draining_the_Oceans_video_by_NASA.webm/960px--Draining_the_Oceans_video_by_NASA.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "Remake of an animation NASA made back in 2008, but at high resolution and with edited timing (https://svs.gsfc.nasa.gov/3487), the previous version was 1024x512 while this one is 3840x2160 (4K). From https://svs.gsfc.nasa.gov/3487:\nThree fifths of the Earth's surface is under the ocean, and the ocean floor is as rich in detail as the land surface with which we are familiar. This animation simulates a drop in sea level that gradually reveals this detail. As the sea level drops, the continental sh",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3ADraining_the_Oceans_video_by_NASA.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Draining_the_Oceans_video_by_NASA.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY 3.0",
+      "media_type": "video/webm",
+      "attribution": "NASA/GFSC/Horace Mitchell &amp; James O'Donoghue",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Draining_the_Oceans_video_by_NASA.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY 3.0"
         }
       ]
     },
