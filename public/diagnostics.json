@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "count": 21,
+  "count": 22,
   "items": [
     {
       "id": "provider:mdn-flower-test",
@@ -497,6 +497,31 @@
           "mime_type": "video/webm",
           "priority": 1,
           "license_note": "Public domain"
+        }
+      ]
+    },
+    {
+      "id": "commons:44965150",
+      "type": "movie",
+      "title": "YBCO video",
+      "poster": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/YBCO_video.webm/960px-YBCO_video.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "description": "A superconductor or a high-temperature superconducting ceramics is an alloy of oxides of yttrium, barium and copper in proportions (which you see on the screen) YBa2Cu3O7-x and abbreviated as YBCO. In order to demonstrate the properties of this object let’s conduct an experiment. First, let’s take a small piece of ceramic and then put a piece of styrofoam and a powerful neodymium magnet on top of it. Next, the superconductor is cooled with liquid nitrogen down to -196 degrees Celsius. After the ",
+      "genre": "Open media",
+      "year": "",
+      "metadata_url": "https://commons.wikimedia.org/wiki/File%3AYBCO_video.webm",
+      "playback_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "playable": true,
+      "metadata_source": "wikimedia-commons",
+      "license_note": "CC BY-SA 4.0",
+      "media_type": "video/webm",
+      "attribution": "Maxim Bilovitskiy",
+      "playback_sources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/YBCO_video.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "provider": "wikimedia-commons",
+          "mime_type": "video/webm",
+          "priority": 1,
+          "license_note": "CC BY-SA 4.0"
         }
       ]
     },
